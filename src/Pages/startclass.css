@@ -1,0 +1,32 @@
+.startclassform{
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.StartClass{
+   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.startclassinput{
+    border-radius:5px solid lightgray;
+    outline: none;
+    min-width: 300px;
+}
+.startclassimg{
+    
+    max-width: 300px;
+    height:270px;
+}
+.stimage{
+    width: 100%;
+}

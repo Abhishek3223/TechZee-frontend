@@ -1,0 +1,39 @@
+.footerWrapper {
+    padding-top:30px ;
+     text-align: center;
+     padding-bottom:40px;
+ }
+ 
+ .footerIntro>h1 {
+     padding-bottom: 10px;
+ }
+ 
+ .footerIntro>p {
+    font-size: 20px;
+    padding-bottom: 30px;
+ }
+ 
+ 
+ .footerButton {
+     border: none;
+     border-radius: 5px;
+     font-size: 10px;
+     background-color: #000;
+     color: #fff;
+     padding: 15px 50px 15px 50px;
+     font-weight: 600;
+ }
+ 
+ .footerEnd {
+     text-align: center;
+     padding-top: 20px;
+ } 
+ .MarqueeSection {
+     text-align: center;
+ }
+ 
+ .marquee {
+     padding-top: 1rem;
+     text-align: center;
+     font-size: 10rem;
+ }

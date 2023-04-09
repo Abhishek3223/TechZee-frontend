@@ -1,0 +1,89 @@
+.dashboard {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 89vh;
+}
+
+.user-profile {
+  /* padding: 5px; */
+  margin: 5px;
+
+  flex: 1;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-dash {
+  margin: 5px;
+  padding: 5px;
+  background-color:white;
+  flex: 4;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  overflow: scroll;
+}
+.user-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(118, 113, 113);
+}
+.user-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.user-img {
+  width: 10rem;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.user-description {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.text-area {
+  border: 1px solid lightgray;
+  outline: none;
+  padding-left: 10px;
+  resize: none;
+}
+.label {
+  padding: 2px;
+}
+.navigation-list {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 5px;
+}
+.navigation-list button {
+  width: 15rem;
+  padding: 10px;
+  font-weight: 500;
+  border: none;
+  background-color: white;
+  color: rgb(118, 113, 113);
+  font-size: large;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.navigation-list button:hover {
+  background-color: #a0bee1;
+  color: white;
+  border-radius: 5px;
+}
+
+.user-dash {
+  height: 100%;
+}

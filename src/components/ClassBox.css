@@ -1,0 +1,14 @@
+.classBox {
+  /* border: 2px solid red; */
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 10px;
+  height: 40%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.inner {
+  padding: 10px;
+  border: 1px solid #ffe4c4;
+  border-radius: 10px;
+}

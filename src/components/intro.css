@@ -1,0 +1,77 @@
+.introWrapper {
+  padding-top: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+
+.introStatement {
+    display: flex;
+    flex: 6;
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+
+.introH2 {
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: lighter;
+}
+
+
+.introImage {
+    display: flex;
+    flex: 6;
+}
+
+.introImg {
+    width: 25vw;
+    height: 70vh;
+    border-radius: 5%;
+}
+
+.introSecondSection {
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.featureIntro>p {
+    font-size: 30px;
+}
+
+
+.featureIntro>h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.featureIntro>h3 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.featureSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+
+.introFImg {
+    height: 25vh;
+    width: 18vw;
+    border-radius: 5px;
+}
